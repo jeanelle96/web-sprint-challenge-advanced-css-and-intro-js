@@ -134,3 +134,37 @@ button:hover{
 .artist img{
     width:100%;
 }
+@media (max-width: 500px){
+    .artists-container, .artist, .artist img{
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        display:flex;
+        text-align: center;
+        justify-content: space-around;
+        margin:0 auto;
+        align-items: center;
+        height: auto;
+        
+    }
+    .header, nav, nav a, nav span{
+        justify-content: space-between;
+        text-align: center;
+        display: flex;
+    }   
+    .title-container{
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }	
+    .title-container div {
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        display:flex;
+        text-align: center;
+        justify-content: space-around;
+        margin:0 auto;
+        align-items: center;
+    }
+}
